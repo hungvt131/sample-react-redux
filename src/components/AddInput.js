@@ -28,7 +28,7 @@ class AddInput extends React.Component {
         return (
             <div>
                 <div>
-                    Button component counter: {counter}
+                    AddInput component counter: {counter}
                 </div>
                 <div>
                     <input 
