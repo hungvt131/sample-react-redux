@@ -2,7 +2,7 @@ import React from 'react';
 import { connect } from 'react-redux';
 import {addCounter} from '../state/actions'
 
-class AddInput extends React.Component {
+class Select extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -56,4 +56,4 @@ const mapDispatchToProps = dispatch => {
     }
   }
 
-export default connect(mapStatetoProps, mapDispatchToProps)(AddInput);
+export default connect(mapStatetoProps, mapDispatchToProps)(Select);
